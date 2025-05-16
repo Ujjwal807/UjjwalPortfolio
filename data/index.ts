@@ -1,7 +1,6 @@
 export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
-  { name: "Testimonials", link: "#testimonials" },
   { name: "Contact", link: "#contact" },
 ];
 
@@ -69,38 +68,38 @@ export const gridItems = [
   },
 ];
 
-export const projects = [
+export const project = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-    img: "/p1.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "/ui.earth.com",
+    title: "MediCore – Hospital Manager",
+    des: "MediCore simplifies hospital management with efficient records, appointments, and operations.",
+    img: "/p1.png",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg"],
+    link: "https://hms-psi-six.vercel.app/",
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    img: "/p2.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "/ui.yoom.com",
+    title: "Swipe — Payment Infrastructure",
+    des: "Secure, scalable platform enabling seamless global payments and multi-currency support.",
+    img: "/p2.jpeg",
+    iconLists: ["/re.svg", "/tail.svg"],
+    link: "https://ujjwal807.github.io/swipe/",
   },
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/p3.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "/ui.aiimg.com",
+    title: "WorldWise",
+    des: "Effortlessly mark and showcase every destination you’ve explored worldwide.",
+    img: "/p3.jpeg",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg"],
+    link: "https://worldwise-jonas.netlify.app/",
   },
   {
     id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "/ui.apple.com",
+    title: "Use Popcorn",
+    des: "Add and rate your favorite movies to create a personalized watchlist.",
+    img: "/p4.png",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg"],
+    link: "https://use-popcorn-khaki.vercel.app/",
   },
 ];
 
@@ -180,24 +179,17 @@ export const workExperience = [
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+    title: "Open Source Contributor Intern - Hacktoberfest",
+    desc: "Contributed to various open source projects by identifying issues, submitting pull requests, and collaborating with maintainers.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp2.svg",
   },
   {
     id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
+    title: "GirlScript Summer of Code, OpenSource",
+    desc: "Collaborated with mentors and a diverse community to enhance coding skills and gain experience in open source software development.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp3.svg",
-  },
-  {
-    id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
-    className: "md:col-span-2",
-    thumbnail: "/exp4.svg",
   },
 ];
 
@@ -205,13 +197,16 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    href: "https://github.com/Ujjwal807",
   },
   {
     id: 2,
     img: "/twit.svg",
+    href: "https://x.com/Ujjawalgupta_1",
   },
   {
     id: 3,
     img: "/link.svg",
+    href: "https://www.linkedin.com/in/ujjwal807/",
   },
 ];

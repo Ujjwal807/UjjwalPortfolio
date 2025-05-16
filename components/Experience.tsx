@@ -15,7 +15,7 @@ const Experience = () => {
           <Button
             key={card.id}
             //   random duration will be fun , I think , may be not
-            duration={Math.floor(Math.random() * 10000) + 10000}
+            duration={10000}
             borderRadius="1.75rem"
             style={{
               //   add these two
