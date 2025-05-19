@@ -103,7 +103,7 @@ export const project = [
   },{
     id: 5,
     title: "Productivity Hub",
-    des: "Productivity Hub is an all-in-one productivity suite offering task management, time tracking, and note-taking tools to streamline your workflow.",
+    des: "All-in-one productivity tool for tasks, notes, and time tracking.",
     img: "/p5.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg"],
     link: "https://productivity-hub-ten.vercel.app/",
